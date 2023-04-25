@@ -11,7 +11,7 @@ public static partial class Program
     {
         if (arg[0] == "a")
         {
-            foreach (var process in Process.GetProcessesByName("TimedSleep"))
+            foreach (var process in Process.GetProcessesByName("TimedSleep.exe"))
                 process.Kill();
             return;
         }

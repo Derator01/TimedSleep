@@ -2,7 +2,7 @@
   "profiles": {
     "TimedSleep": {
       "commandName": "Project",
-      "commandLineArgs": "5000"
+      "commandLineArgs": "20000"
     }
   }
 }
